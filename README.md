@@ -1,11 +1,11 @@
-# Send Video w/ TCP Socket
+# Send Video w/ TCP Sockets
 
-### Server
+### Server + Client
 ```shell
-pipenv run python server.py
+pipenv run python main.py -s=true -c=true
 ```
 
-### Client
+### Server + 10 Clients
 ```shell
-pipenv run python client.py -sip <server_ip>
+pipenv run ./run10.sh
 ```
